@@ -1,8 +1,8 @@
-# MT-TopLap <!-- [![preprint](https://img.shields.io/static/v1?label=arXiv&message=2310.12508&color=B31B1B)](https://www.google.com/) --> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+# CANet <!-- [![preprint](https://img.shields.io/static/v1?label=arXiv&message=2310.12508&color=B31B1B)](https://www.google.com/) --> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 ## Model Architecture
 
-The multitask deep learning architecture of MT-TopLap model is shown below.
+The multitask deep learning architecture of CANet model is shown below.
 ![Model Architecture](./MT-TopLap_dark.png#gh-dark-mode-only)
 ![Model Architecture](./MT-TopLap.png#gh-light-mode-only)
 
