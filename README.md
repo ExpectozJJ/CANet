@@ -6,7 +6,6 @@
 <img src="concept_v5.png" alt="Model Framework" width="85%">
 
 ---
-
 ## Getting Started
 
 ### Prerequisites
