@@ -3,7 +3,7 @@
 ## Model Framework
 
 <!-- ![Model Framework](Fig_framework.png) -->
-<img src="concept_v5.png" alt="Model Framework" width="60%">
+<img src="concept_v5.png" alt="Model Framework" width="85%">
 
 ---
 
