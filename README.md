@@ -26,15 +26,6 @@ The multitask deep learning architecture of MT-TopLap model is shown below.
 │   README.md
 │     
 │
-└───mutsol
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-│   
 └───M546
 │   │   file011.txt
 │   │   file012.txt
@@ -43,7 +34,16 @@ The multitask deep learning architecture of MT-TopLap model is shown below.
 │       │   file111.txt
 │       │   file112.txt
 │       │   ...
+│   
 └───S2648
+│   │   file011.txt
+│   │   file012.txt
+│   │
+│   └───subfolder1
+│       │   file111.txt
+│       │   file112.txt
+│       │   ...
+└───mutsol
     │   file011.txt
     │   file012.txt
     │
