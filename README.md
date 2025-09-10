@@ -51,12 +51,18 @@
 
 ## Datasets
 
-| Dataset         | No. of samples | Task   |
+| Disease-association       | No. of samples | Task   |
 |-----------------|----------------|--------|
 | M546            | 492            | 10-fold cross-validation       |
 | M546            | 54             | Blind test   |
+
+| Protein stability changes       | No. of samples | Task   |
+|-----------------|----------------|--------|
 | S2648           | 2648           | 5-fold cross-validation   |
 | S350            | 350            | Blind test  |
+
+| Protein solubility changes       | No. of samples | Task   |
+|-----------------|----------------|--------|
 | PON-Sol2        | 6238           | 10-fold cross-validation   |
 | PON-Sol2        | 3724           | Blind test   |
 
