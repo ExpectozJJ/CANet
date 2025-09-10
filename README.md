@@ -68,7 +68,11 @@
 
 ---
 ## Feature generation
-### BLAST+ PSSM calculation
+### Multiscale Commutative Algebra Embedding
+
+
+### Auxiliary Features 
+#### BLAST+ PSSM calculation
 ```shell
 # Generate PSSM scoring matrix (Requires BLAST+ 2.10.1 and GCC 9.3.0)
 python PPIprepare.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
@@ -77,7 +81,7 @@ python PPIprepare.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation ch
 python PPIprepare.py 1A4Y A B A D 435 A 7.0 
 ```
 
-### MIBPB calculation
+#### MIBPB calculation
 ```
 mibpb5 filename h=0.7
 ```
@@ -93,7 +97,7 @@ python PPIfeature.py 1A4Y A B A D 435 A 7.0
 python PPIfeature_Lap.py 1A4Y A B A D 435 A 7.0 
 ```
 
-### ESM Features 
+#### ESM-2 Transformer Features 
 ```shell
 # Generate transformer features
 python PPIfeature_seq.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
