@@ -51,33 +51,16 @@
         │   file112.txt
 ```
 
-## Multi-task Pre-training Datasets
+## Datasets
 
-| Dataset                                                            | No. of samples | PDB ID                                                                       |
-|--------------------------------------------------------------------|-------------------------------------|------------------------------------------------------------------------------|
-| RBD-ACE2-1                                     | 3669                                | 6M0J                                                  |
-| RBD-ACE2-2                                    | 1539                                | 6M0J                                                  |
-| RBD-ACE2-3                            | 2223                                | 6M0J                                                  |
-| RBD-CTC-455.2-1                             | 1539                                | 7KL9                                                    |
-| RBD-CTC-455.2-2                            | 2831                                | 7KL9                                                    |
-| BA.1-RBD-ACE2                            | 3800                                | 7T9L                                                   |
-| BA.2-RBD-ACE2                                 | 3686                                | 7XB0                                                  |
-| CAPRI  | 1862                                | 3R2X;4EEF |
-## 10-fold Cross-Validation Benchmarking 
-| Dataset    | No. of Samples | No. of PPIs | PDB Source                      |
-|------------|----------------|-------------|---------------------------------|
-| Original   | 8338           | 319         | Download from RCSB              |
-| AlphaFold3 | 8330           | 317         | Download from AlphaFold Server  |
-
-## Downstream DMS Tasks
-| Dataset         | No. of samples | PDB ID |
+| Dataset         | No. of samples | Task   |
 |-----------------|----------------|--------|
-| RBD-hACE2       | 3649           | 6M0J   |
-| RBD-cACE2       | 3625           | 7C8D   |
-| RBD-bACE2       | 3646           | 7XA7   |
-| RBD-dACE2       | 3487           | 8HG0   |
-| BA.2-RBD-hACE2  | 3668           | 7ZF7   |
-| BA.2-RBD-haACE2 | 3724           | 7YV8   |
+| M546            | 492            | 10-fold cross-validation       |
+| M546            | 54             | Blind test   |
+| S2648           | 2648           | 5-fold cross-validation   |
+| S350            | 350            | Blind test  |
+| PON-Sol2        | 6238           | 10-fold cross-validation   |
+| PON-Sol2        | 3724           | Blind test   |
 
 The PDB files, mutation locations and mutation-induced binding free energy changes can be found in ./downstream/.
 
@@ -117,14 +100,6 @@ python PPIfeature_seq.py 1A4Y A B A D 435 A 7.0
 The jobs folder contains the codes used to run feature generation process in a step-by-step procedure. 
 
 ---
-## Validation Results
-| Method                | R_p  | Description           | PDB Source |
-|-----------------------|------|-----------------------|------------|
-| MT-TopLap             | 0.88 | Freeze Last 3 Layers  | RCSB       |
-| MT-TopLap<sup>E</sup>         | 0.88 | Freeze Even Layers    | RCSB       |
-| MT-TopLap<sup>O</sup>         | 0.88 | Freeze Odd Layers     | RCSB       |
-| MT-TopLap<sub>AF3</sub> | 0.86 | Freeze Last 3 Layers  | AlphaFold3 |
-| MT-TopLap<sup>F</sup>         | 0.85 | Freeze First 3 Layers | RCSB       |
 
 ## Execute Model
 ```shell
@@ -181,5 +156,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Citation
 If you use this code in your work, please cite our work. 
 - JunJie Wee, Guo-Wei Wei. Evaluation of AlphaFold 3’s Protein–Protein Complexes for Predicting Binding Free Energy Changes upon Mutation. Journal of Chemical Information and Modeling (2024). DOI: 10.1021/acs.jcim.4c00976
-- JunJie Wee, Jiahui Chen, Guo-Wei Wei. Preventing future zoonosis: SARS-CoV-2 mutations enhance human–animal cross-transmission. Computers in Biology and Medicine 182 (2024). 109101. DOI: 10.1016/j.compbiomed.2024.109101
 ---
