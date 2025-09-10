@@ -42,12 +42,11 @@
 │       │   file112.txt
 │       │   ...
 └───mutsol
-    │   file011.txt
-    │   file012.txt
+    │   mutsol.txt
     │
-    └───subfolder1
-        │   file111.txt
-        │   file112.txt
+    └───pdb
+        │   117391.pdb
+        |   ...
 ```
 
 ## Datasets
