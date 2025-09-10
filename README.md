@@ -78,7 +78,9 @@ python PPIprepare.py 1A4Y A B A D 435 A 7.0
 ```
 
 ### MIBPB calculation
-Refer to https://weilab.math.msu.edu/MIBPB/ 
+```
+mibpb5 filename h=0.7
+```
 
 ### Persistent Laplacian and Auxiliary Features 
 ```shell
