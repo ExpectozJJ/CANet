@@ -60,8 +60,6 @@
 | PON-Sol2        | 6238           | 10-fold cross-validation   |
 | PON-Sol2        | 3724           | Blind test   |
 
-The PDB files, mutation locations and mutation-induced binding free energy changes can be found in ./downstream/.
-
 ---
 ## Feature generation
 ### BLAST+ PSSM calculation
