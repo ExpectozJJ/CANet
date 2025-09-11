@@ -22,36 +22,61 @@
 ## Folder Structure
 ```
 │   README.md
-│     
-│
 └───S2648
 │   │   S2648.txt
 │   │   S350.txt
 │   └───blast_jobs
+│   |   │   1A5E_A_L_37_S.job
+|   |   |   ...
 |   └───blast_out
+|   │   1A5E_A_L_37_S.out
+|   |   |   ...
 |   └───feat_jobs
+|   │   1A5E_A_L_37_S.job
+|   |   |   ...
 |   └───feat_out
+|   │   1A5E_A_L_37_S.out
+|   |   |   ...
 |   └───seq_jobs
+|   │   1A5E_A_L_37_S.job
+|   |   |   ...
 |   └───seq_out
+|   │   1A5E_A_L_37_S.out
+|   |   |   ...
 |   └───SR_jobs
+|   │   1A5E_A_L_37_S.job
+|   |   |   ...
 |   └───SR_out
+|   │   1A5E_A_L_37_S.out
+|   |   |   ...
 │   └───features
 │       └───1A5E_A_L_37_S
 │       └───1A5E_A_L_121_R
 │       └───1A5E_A_W_15_D
 │       ...
 |       └───451C_A_W_77_F
-└───S2648
-│   │   S2648.txt
-│   │   S350.txt
-│   │
+└───M546
+│   │   M546.txt
+│   └───blast_jobs
+│   └───blast_out
+│   └───feat_jobs
+│   └───feat_out
+│   └───seq_jobs
+│   └───seq_out
 │   └───features
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
+│   └───SR_jobs
+│   └───SR_out
 └───mutsol
     │   mutsol.txt
-    │
+    └───blast_jobs
+    └───blast_out
+    └───feat_jobs
+    └───feat_out
+    └───seq_jobs
+    └───seq_out
+    └───features
+    └───SR_jobs
+    └───SR_out
     └───pdb
         │   117391.pdb
         |   ...
