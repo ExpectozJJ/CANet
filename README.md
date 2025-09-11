@@ -84,7 +84,7 @@ At `bin`, change the directory of `jackal.dir` to your local path.
 cd code
 python setup.py build_ext -i
 cd ..
-cd test/1A5E_A_L_37_S
+cd S2648/features/1A5E_A_L_37_S
 ln -s ../../bin/jackal.dir jackal.dir
 ln -s ../../bin/profix profix
 ln -s ../../bin/scap scap
