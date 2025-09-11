@@ -131,7 +131,7 @@ python structure.py 1A5E A A L 37 S
 python protein.py 1A5E A A L 37 S 
 ```
 
-## 5. Datasets 
+## Datasets 
 
 | Disease-association       | No. of samples | Task   |
 |-----------------|----------------|--------|
@@ -150,7 +150,7 @@ python protein.py 1A5E A A L 37 S
 ---
 
 ---
-## 6. Feature generation
+## Feature generation
 ### Multiscale Commutative Algebra Embedding
 ```shell
 # 
@@ -197,7 +197,7 @@ The blast_jobs, feat_jobs, seq_jobs and SR_jobs folder contains scripts used to 
 
 ---
 
-## 7. Execute Model & Usage
+## Usage
 ```shell
 usage: PPI_multitask_DMS_mega.py [-h] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--lr LR] [--momentum MOMENTUM]
                                  [--weight_decay WEIGHT_DECAY] [--no_cuda] [--seed SEED] [--log_interval LOG_INTERVAL]
