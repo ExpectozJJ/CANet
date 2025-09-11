@@ -267,5 +267,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Citation
 If you use this code in your work, please cite our work. 
-- JunJie Wee, Guo-Wei Wei. Evaluation of AlphaFold 3’s Protein–Protein Complexes for Predicting Binding Free Energy Changes upon Mutation. Journal of Chemical Information and Modeling (2024). DOI: 10.1021/acs.jcim.4c00976
+- 
 ---
