@@ -58,11 +58,6 @@
         └───451C_A_W_77_F
 ```
 
-### Software Installation
-```
-conda install sbl::dssp 
-```
-
 ## Datasets
 
 | Disease-association       | No. of samples | Task   |
@@ -82,7 +77,7 @@ conda install sbl::dssp
 ---
 
 ## Environment Setup
-Installation
+Installation 
 At `bin`, change the directory of `jackal.dir` to your local path.
 ```shell
 cd code
@@ -131,6 +126,10 @@ python PPIprepare.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation ch
 python PPIprepare.py 1A4Y A B A D 435 A 7.0 
 ```
 
+```shell
+conda install sbl::dssp (DSSP v4.2.2.1)
+```
+
 #### MIBPB calculation
 ```
 # Requires pqr file
@@ -147,7 +146,6 @@ python PPIfeature_seq.py <PDB ID> <Partner A chains> <Partner B chains> <Mutatio
 python PPIfeature_seq.py 1A4Y A B A D 435 A 7.0
 ```
 The jobs folder contains the codes used to run feature generation process in a step-by-step procedure. 
-
 ---
 
 ## Execute Model
