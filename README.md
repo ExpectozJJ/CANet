@@ -17,7 +17,6 @@
 - pytorch-cuda              11.7
 - scikit-learn              1.3.2
 - python                    3.10.12
-- Softwares to be installed for ./bin folder (See README at bin)
 
 ### Folder Structure
 ```
@@ -60,10 +59,8 @@
 ```
 
 ### Software Installation
-At `bin`, unzip PDB2PQR.
 ```
-sudo apt install unzip
-unzip pdb2pqr.zip 
+conda install sbl::dssp 
 ```
 
 ## Datasets
