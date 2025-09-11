@@ -1,0 +1,25 @@
+generate files: 1A5E_WT.pdb 1A5E_MT.pdb
+load PQR file >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+get pKa information >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+constructing index list >>>>>>>>>>>>>>>>>>>>>>>>>>>
+setup pairwise interaction >>>>>>>>>>>>>>>>>>>>>>>>
+Calculating SR-Rips >>>>>>>>>>>>>>>>>>>>>>>>>>>
+Calculating SR-Alpha >>>>>>>>>>>>>>>>>>>>>>>>>>>
+Calculating SR-Rips >>>>>>>>>>>>>>>>>>>>>>>>>>>
+Calculating SR-Alpha >>>>>>>>>>>>>>>>>>>>>>>>>>>
+load PQR file >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+get pKa information >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+constructing index list >>>>>>>>>>>>>>>>>>>>>>>>>>>
+setup pairwise interaction >>>>>>>>>>>>>>>>>>>>>>>>
+Calculating SR-Rips >>>>>>>>>>>>>>>>>>>>>>>>>>>
+Calculating SR-Alpha >>>>>>>>>>>>>>>>>>>>>>>>>>>
+Calculating SR-Rips >>>>>>>>>>>>>>>>>>>>>>>>>>>
+Calculating SR-Alpha >>>>>>>>>>>>>>>>>>>>>>>>>>>
+SR-curves feature size:  (1410,) (1410,)
+SR-rates feature size:  (1410,) (1410,)
+SR-fcurves feature size:  (1410,) (1410,)
+SR-frates feature size:  (1410,) (1410,)
+allocate memory for features: VDW, FRI, and CLB
+deallocate memory
+allocate memory for features: VDW, FRI, and CLB
+deallocate memory
