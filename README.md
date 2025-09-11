@@ -19,7 +19,7 @@
 - python                    3.10.12
 - Softwares to be installed for ./bin folder (See README at bin)
 
-## Folder Structure
+### Folder Structure
 ```
 │   README.md
 └─────────────────────────────────────────────────────mutsol
@@ -57,6 +57,13 @@
         └───1A5E_A_W_15_D
         ...
         └───451C_A_W_77_F
+```
+
+### Software Installation
+At `bin`, unzip PDB2PQR.
+```
+sudo apt install unzip
+unzip pdb2pqr.zip 
 ```
 
 ## Datasets
