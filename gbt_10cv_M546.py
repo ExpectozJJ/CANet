@@ -48,7 +48,7 @@ for i in range(1):
         X_train, X_test = X_val[train_idx], X_val[test_idx]
         y_train, y_test = y_val[train_idx], y_val[test_idx]
 
-        clf1 = GradientBoostingClassifier(n_estimators = 20000, learning_rate=0.05, max_features='sqrt', max_depth=6, subsample=0.7, min_samples_split=3)
+        clf1 = GradientBoostingClassifier(n_estimators = 20000, learning_rate=0.05, max_features='sqrt', max_depth=7, subsample=0.7, min_samples_split=3)
         clf2 = RandomForestClassifier(n_estimators = 20000, max_features='sqrt', max_depth=6, min_samples_split=3)
         clf3 = ExtraTreesClassifier(n_estimators = 20000, max_features='sqrt', max_depth=6, min_samples_split=3)
         
@@ -82,42 +82,3 @@ print(f'F1 : {f1_score(y_val, results)}')
 print(f'Precision: {precision_score(y_val, results)}')
 print(f'Recall: {recall_score(y_val, results)}')
 print(f'Balanced Acc: {balanced_accuracy_score(y_val,results)}')
-
-"""
-PSR rates
-MCC: 0.6854324459549164
-ACC: 0.8780487804878049
-AUC: 0.8157700810611644
-F1 : 0.9186991869918699
-Precision: 0.8828125
-Recall: 0.9576271186440678
-Balanced Acc: 0.8157700810611643
-
-PSR curves 
-MCC: 0.6962471951423991
-ACC: 0.8821138211382114
-AUC: 0.8185949398182264
-F1 : 0.9216216216216216
-Precision: 0.883419689119171
-Recall: 0.963276836158192
-Balanced Acc: 0.8185949398182264
-
-PH
-MCC: 0.6962471951423991
-ACC: 0.8821138211382114
-AUC: 0.8185949398182264
-F1 : 0.9216216216216216
-Precision: 0.883419689119171
-Recall: 0.963276836158192
-Balanced Acc: 0.8185949398182264
-
-
-Laplacian
-MCC: 0.7074340117350791
-ACC: 0.8861788617886179
-AUC: 0.8280520756570867
-F1 : 0.9239130434782609
-Precision: 0.8900523560209425
-Recall: 0.96045197740113
-Balanced Acc: 0.8280520756570867
-"""
