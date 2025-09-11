@@ -197,7 +197,14 @@ The blast_jobs, feat_jobs, seq_jobs and SR_jobs folder contains scripts used to 
 
 ---
 
-## Usage
+## Feature Preprocessing
+```shell
+python Fit_M546.py
+python build_M546.py
+
+```
+
+## Model Usage
 ```shell
 usage: PPI_multitask_DMS_mega.py [-h] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--lr LR] [--momentum MOMENTUM]
                                  [--weight_decay WEIGHT_DECAY] [--no_cuda] [--seed SEED] [--log_interval LOG_INTERVAL]
