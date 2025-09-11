@@ -157,8 +157,9 @@ python PPIfeature.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation ch
 python PPIfeature_Lap.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
 
 # examples
-python PPIfeature.py 1A4Y A B A D 435 A 7.0
-python PPIfeature_Lap.py 1A4Y A B A D 435 A 7.0 
+module purge
+module load GCC/12.3.0 OpenMPI/4.1.5-GCC-12.3.0
+python feature_SR.py 1AFO A A A 65 P 7
 ```
 
 ### Auxiliary Features 
