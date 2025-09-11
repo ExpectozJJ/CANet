@@ -94,7 +94,7 @@ ln -s ../../code/src src
 ```
 You may also use 
 ```shell
-$ pip install -e . -v
+pip install -e . -v
 ```
 to install the package.
 
