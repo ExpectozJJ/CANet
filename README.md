@@ -180,7 +180,6 @@ conda install sbl::dssp (DSSP v4.2.2.1)
 #### MIBPB calculation
 ```
 # Requires pqr file
-pdb2pqr 
 mibpb5 <PQR filename> h=0.7
 ```
 
