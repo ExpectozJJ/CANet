@@ -117,13 +117,14 @@ python PPIfeature_Lap.py 1A4Y A B A D 435 A 7.0
 ```
 
 ### Auxiliary Features 
-#### BLAST+ PSSM calculation
+#### BLAST+ and generate PSSM
 ```shell
-# Generate PSSM scoring matrix (Requires BLAST+ 2.10.1 and GCC 9.3.0)
-python PPIprepare.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
+# Generate PSSM scoring matrix (Requires BLAST+ 2.14.1)
+python prepare.py <PDB ID> <Protein chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
 
-# examples
-python PPIprepare.py 1A4Y A B A D 435 A 7.0 
+# Add module load BLAST+/2.14.1-gompi-2023a into job script
+# Run BLAST+ PSSM calculations
+python prepare.py 1A4Y A A D 435 A 7.0 
 ```
 
 ```shell
@@ -140,10 +141,10 @@ mibpb5 <PQR filename> h=0.7
 #### ESM-2 Transformer Features 
 ```shell
 # Generate transformer features
-python PPIfeature_seq.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
+python feature_seq.py <PDB ID> <Protein chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
 
 # examples
-python PPIfeature_seq.py 1A4Y A B A D 435 A 7.0
+python feature_seq.py 1AFO A A A 65 P 7.0
 ```
 The jobs folder contains the codes used to run feature generation process in a step-by-step procedure. 
 ---
