@@ -75,6 +75,35 @@
 |-----------------|----------------|--------|
 | PON-Sol2        | 6238           | 10-fold cross-validation   |
 | PON-Sol2        | 3724           | Blind test   |
+---
+
+## Environment Setup
+```
+Installation
+At `bin`, change the directory of `jackal.dir` to your local path.
+```shell
+$ cd code
+$ python setup.py build_ext -i
+$ cd ..
+$ cd test/1A5E_A_L_37_S
+$ ln -s ../../bin/jackal.dir jackal.dir
+$ ln -s ../../bin/profix profix
+$ ln -s ../../bin/scap scap
+$ ln -s ../../code/structure.py structure.py
+$ ln -s ../../code/protein.py protein.py
+$ ln -s ../../code/src src
+```
+You may also use 
+```shell
+$ pip install -e . -v
+```
+to install the package.
+
+### Run 
+```shell
+python structure.py 1A5E A A L 37 S 
+python protein.py 1A5E A A L 37 S 
+```
 
 ---
 ## Feature generation
