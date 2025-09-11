@@ -47,7 +47,7 @@ This repository contains the source code for the **Commutative algebra neural ne
 ---
 ## Getting Started
 
-### Prerequisites
+### 1. Prerequisites
 
 - fair-esm                  2.0.0
 - numpy                     1.23.5
@@ -57,7 +57,14 @@ This repository contains the source code for the **Commutative algebra neural ne
 - scikit-learn              1.3.2
 - python                    3.10.12
 
-### Folder Structure
+### 2. Clone the repository
+
+```bash
+git clone https://github.com/WeilabMSU/ITTransformer.git
+cd ITTransformer
+```
+
+### 3. Folder Structure
 ```
 │   README.md
 └─────────────────────────────────────────────────────mutsol
@@ -97,26 +104,8 @@ This repository contains the source code for the **Commutative algebra neural ne
         └───451C_A_W_77_F
 ```
 
-## Datasets
-
-| Disease-association       | No. of samples | Task   |
-|-----------------|----------------|--------|
-| M546            | 492            | 10-fold cross-validation       |
-| M546            | 54             | Blind test   |
-
-| Protein stability changes       | No. of samples | Task   |
-|-----------------|----------------|--------|
-| S2648           | 2648           | 5-fold cross-validation   |
-| S350            | 350            | Blind test  |
-
-| Protein solubility changes       | No. of samples | Task   |
-|-----------------|----------------|--------|
-| PON-Sol2        | 6238           | 10-fold cross-validation   |
-| PON-Sol2        | 3724           | Blind test   |
----
-
-## Environment Setup
-Installation 
+## 4. Commutative algebra package setup
+This setups the package to generate the multiscale commutative algebra embeddings 
 At `bin`, change the directory of `jackal.dir` to your local path.
 ```shell
 cd code
@@ -142,8 +131,26 @@ python structure.py 1A5E A A L 37 S
 python protein.py 1A5E A A L 37 S 
 ```
 
+## 5. Datasets 
+
+| Disease-association       | No. of samples | Task   |
+|-----------------|----------------|--------|
+| M546            | 492            | 10-fold cross-validation       |
+| M546            | 54             | Blind test   |
+
+| Protein stability changes       | No. of samples | Task   |
+|-----------------|----------------|--------|
+| S2648           | 2648           | 5-fold cross-validation   |
+| S350            | 350            | Blind test  |
+
+| Protein solubility changes       | No. of samples | Task   |
+|-----------------|----------------|--------|
+| PON-Sol2        | 6238           | 10-fold cross-validation   |
+| PON-Sol2        | 3724           | Blind test   |
 ---
-## Feature generation
+
+---
+## 6. Feature generation
 ### Multiscale Commutative Algebra Embedding
 ```shell
 # 
@@ -188,7 +195,7 @@ python feature_seq.py 1AFO A A A 65 P 7.0
 The jobs folder contains the codes used to run feature generation process in a step-by-step procedure. 
 ---
 
-## Execute Model
+## 7. Execute Model
 ```shell
 usage: PPI_multitask_DMS_mega.py [-h] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--lr LR] [--momentum MOMENTUM]
                                  [--weight_decay WEIGHT_DECAY] [--no_cuda] [--seed SEED] [--log_interval LOG_INTERVAL]
