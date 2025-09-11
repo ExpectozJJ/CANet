@@ -1,5 +1,44 @@
 # CANet <!-- [![preprint](https://img.shields.io/static/v1?label=arXiv&message=2310.12508&color=B31B1B)](https://www.google.com/) --> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
+**Commutative algebra neural network reveals genetic origins of diseases**
+
+**Authors**: JunJie Wee, Faisal Suwayyid, Mushal Zia, Hongsong Feng, Yuta Hozumi, Guo-Wei Wei
+
+---
+
+## Introduction
+
+This repository contains the source code for the **Commutative algebra neural network reveals genetic origins of diseases**, a unified deep learning framework for **disease-associated mutations, mutation-induced protein stability changes and protein solubility changes**.
+
+**Keywords**: 
+
+---
+
+## Table of Contents
+
+- [CANet](#CANet)
+  - [Introduction](#introduction)
+  - [Table of Contents](#table-of-contents)
+  - [Model Framework](#model-framework)
+  - [Installation](#installation)
+    - [1. Clone the repository](#1-clone-the-repository)
+    - [2. Create a conda environment](#2-create-a-conda-environment)
+  - [Usage](#usage)
+    - [1. Data Preprocessing](#1-data-preprocessing)
+    - [2. Pretraining](#2-pretraining)
+    - [3. Fine-Tuning](#3-fine-tuning)
+    - [4. Prediction](#4-prediction)
+    - [5. Extract the Latent Features (Optional)](#5-extract-the-latent-features-optional)
+  - [Open Resources](#open-resources)
+    - [1. Datasets](#1-datasets)
+    - [2. Pretrained Model](#2-pretrained-model)
+    - [3. Downstream Models and Predictions](#3-downstream-models-and-predictions)
+  - [Contributors](#contributors)
+  - [License](#license)
+
+
+---
+
 ## Model Framework
 
 <!-- ![Model Framework](Fig_framework.png) -->
