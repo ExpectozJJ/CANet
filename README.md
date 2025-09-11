@@ -78,20 +78,19 @@
 ---
 
 ## Environment Setup
-```
 Installation
 At `bin`, change the directory of `jackal.dir` to your local path.
 ```shell
-$ cd code
-$ python setup.py build_ext -i
-$ cd ..
-$ cd test/1A5E_A_L_37_S
-$ ln -s ../../bin/jackal.dir jackal.dir
-$ ln -s ../../bin/profix profix
-$ ln -s ../../bin/scap scap
-$ ln -s ../../code/structure.py structure.py
-$ ln -s ../../code/protein.py protein.py
-$ ln -s ../../code/src src
+cd code
+python setup.py build_ext -i
+cd ..
+cd test/1A5E_A_L_37_S
+ln -s ../../bin/jackal.dir jackal.dir
+ln -s ../../bin/profix profix
+ln -s ../../bin/scap scap
+ln -s ../../code/structure.py structure.py
+ln -s ../../code/protein.py protein.py
+ln -s ../../code/src src
 ```
 You may also use 
 ```shell
