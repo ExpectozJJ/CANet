@@ -25,9 +25,15 @@ This repository contains the source code for the **Commutative algebra neural ne
     - [2. Clone the repository](#2-clone-the-repository)
     - [3. Folder Structure](#3-folder-structure)
   - [Datasets](#datasets)
+  - [Feature generation](#feature-generation)
+    - [1. Multiscale Commutative Algebra Embedding](#1-Multiscale-Commutative-Algebra-Embedding)
+    - [2. Auxiliary Features](#2-Auxiliary-Features)
+      - [BLAST+ and generate PSSM](#1-BLAST+-and-generate-PSSM)
+      - [MIBPB calculation](#2-MIBPB-calculation)
+      - [ESM-2 Transformer Features](#3-ESM-2-Transformer-Features)
   - [Usage](#usage)
-  - [Contributors](#contributors)
   - [License](#license)
+  - [Citation](#citation)
 
 
 ---
