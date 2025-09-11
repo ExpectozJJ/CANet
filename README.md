@@ -60,8 +60,8 @@ This repository contains the source code for the **Commutative algebra neural ne
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/WeilabMSU/ITTransformer.git
-cd ITTransformer
+git clone https://github.com/ExpectozJJ/CANet.git
+cd CANet
 ```
 
 ### 3. Folder Structure
