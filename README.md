@@ -24,20 +24,28 @@
 │   README.md
 │     
 │
-└───M546
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-│   
 └───S2648
-│   │   file011.txt
-│   │   file012.txt
+│   │   S2648.txt
+│   │   S350.txt
+│   └───blast_jobs
+|   └───blast_out
+|   └───feat_jobs
+|   └───feat_out
+|   └───seq_jobs
+|   └───seq_out
+|   └───SR_jobs
+|   └───SR_out
+│   └───features
+│       └───1A5E_A_L_37_S
+│       └───1A5E_A_L_121_R
+│       └───1A5E_A_W_15_D
+│       ...
+|       └───451C_A_W_77_F
+└───S2648
+│   │   S2648.txt
+│   │   S350.txt
 │   │
-│   └───subfolder1
+│   └───features
 │       │   file111.txt
 │       │   file112.txt
 │       │   ...
@@ -69,7 +77,15 @@
 ---
 ## Feature generation
 ### Multiscale Commutative Algebra Embedding
+```shell
+# 
+python PPIfeature.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
+python PPIfeature_Lap.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
 
+# examples
+python PPIfeature.py 1A4Y A B A D 435 A 7.0
+python PPIfeature_Lap.py 1A4Y A B A D 435 A 7.0 
+```
 
 ### Auxiliary Features 
 #### BLAST+ PSSM calculation
@@ -83,18 +99,9 @@ python PPIprepare.py 1A4Y A B A D 435 A 7.0
 
 #### MIBPB calculation
 ```
-mibpb5 filename h=0.7
-```
-
-### Persistent Laplacian and Auxiliary Features 
-```shell
-# Generate persistent homology and auxiliary features
-python PPIfeature.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
-python PPIfeature_Lap.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
-
-# examples
-python PPIfeature.py 1A4Y A B A D 435 A 7.0
-python PPIfeature_Lap.py 1A4Y A B A D 435 A 7.0 
+# Requires pqr file
+pdb2pqr 
+mibpb5 <PQR filename> h=0.7
 ```
 
 #### ESM-2 Transformer Features 
