@@ -37,7 +37,7 @@ y_val, y_blind = y_val[:492], y_val[492:]
 
 scores = []
 results = []
-for i in range(1):
+for i in range(10):
     reg = GradientBoostingClassifier(n_estimators = 20000, learning_rate=0.05, max_features='sqrt', max_depth=7, subsample=0.4, min_samples_split=3)
     reg.fit(X_val, y_val)
     y_pred = reg.predict(X_blind)

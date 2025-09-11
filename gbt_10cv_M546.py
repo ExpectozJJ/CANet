@@ -38,7 +38,7 @@ y_val, y_blind = y_val[:492], y_val[492:]
 scores = []
 results = []
 
-for i in range(1):
+for i in range(10):
     kf = KFold(n_splits=5, shuffle=True)
     
     tmp = np.zeros(len(y_val)) 
@@ -71,7 +71,6 @@ for i in range(1):
 
 results = np.mean(results, axis = 0)
 results = np.round(results)
-#results = (results >= 0.3).astype(bool)
 results = np.array(results, dtype=int) 
 
 print(f'Final Result.....................')
