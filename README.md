@@ -31,7 +31,8 @@ This repository contains the source code for the **Commutative algebra neural ne
       - [BLAST+ and generate PSSM](#1-blast+-and-generate-pssm)
       - [MIBPB calculation](#2-mibpb-calculation)
       - [ESM-2 Transformer Features](#3-esm-2-transformer-features)
-  - [Usage](#usage)
+  - [Feature Preprocessing](#feature-preprocessing)
+  - [Model Usage](#model-usage)
   - [License](#license)
   - [Citation](#citation)
 
