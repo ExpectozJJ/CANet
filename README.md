@@ -154,8 +154,7 @@ python protein.py 1A5E A A L 37 S
 ### Multiscale Commutative Algebra Embedding
 ```shell
 # 
-python PPIfeature.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
-python PPIfeature_Lap.py <PDB ID> <Partner A chains> <Partner B chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
+python feature_SR.py <PDB ID> <Protein Chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
 
 # examples
 module purge
