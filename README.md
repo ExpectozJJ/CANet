@@ -185,6 +185,7 @@ mibpb5 <PQR filename> h=0.7
 ```
 
 #### ESM-2 Transformer Features 
+ 
 ```shell
 # Generate transformer features
 python feature_seq.py <PDB ID> <Protein chains> <Mutation chain> <Wild Residue> <Residue ID> <Mutant Residue> <pH>
@@ -192,7 +193,9 @@ python feature_seq.py <PDB ID> <Protein chains> <Mutation chain> <Wild Residue> 
 # examples
 python feature_seq.py 1AFO A A A 65 P 7.0
 ```
-The jobs folder contains the codes used to run feature generation process in a step-by-step procedure. 
+
+The blast_jobs, feat_jobs, seq_jobs and SR_jobs folder contains scripts used to run feature generation process in a step-by-step procedure with the help of a high performance computing resource.
+
 ---
 
 ## 7. Execute Model & Usage
