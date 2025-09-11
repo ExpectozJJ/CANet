@@ -104,8 +104,8 @@ cd CANet
         └───451C_A_W_77_F
 ```
 
-## 4. Commutative algebra package setup
-This setups the package to generate the multiscale commutative algebra embeddings 
+## 4. Package Installation
+This setups the package to generate features for CANet
 At `bin`, change the directory of `jackal.dir` to your local path.
 ```shell
 cd code
@@ -195,7 +195,7 @@ python feature_seq.py 1AFO A A A 65 P 7.0
 The jobs folder contains the codes used to run feature generation process in a step-by-step procedure. 
 ---
 
-## 7. Execute Model
+## 7. Execute Model & Usage
 ```shell
 usage: PPI_multitask_DMS_mega.py [-h] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--lr LR] [--momentum MOMENTUM]
                                  [--weight_decay WEIGHT_DECAY] [--no_cuda] [--seed SEED] [--log_interval LOG_INTERVAL]
