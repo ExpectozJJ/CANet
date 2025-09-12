@@ -219,18 +219,32 @@ python build_mutsol.py
 ```
 ---
 
-## Model Usage
+## Execute Model
+
+### Cross-validation Example
+```
+python CANet.py --epochs=200 --lr=0.001 --batch_size=32
+```
+
+### Blind Test Example
+```
+python CANet_blind.py --epochs=200 --lr=0.001 --batch_size=32
+```
+
+### Parameters 
 ```shell
-usage: CANet.py [-h] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--lr LR] [--momentum MOMENTUM]
-                           [--weight_decay WEIGHT_DECAY] [--no_cuda] [--seed SEED] [--log_interval LOG_INTERVAL] [--layers LAYERS]
-                           [--prediction PREDICTION] [--pred PRED] [--cv CV]
-                           [--blind_test BLIND_TEST] [--model MODEL] [--normalizer_name NORMALIZER_NAME] [--debug DEBUG]
+usage: CANet.py [-h] [--dataset DATASET] [--datatype DATATYPE] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--lr LR]
+                [--momentum MOMENTUM] [--weight_decay WEIGHT_DECAY] [--no_cuda] [--seed SEED]
+                [--log_interval LOG_INTERVAL] [--layers LAYERS] [--nlayer NLAYER]
+
+CANet
 
 options:
   -h, --help            show this help message and exit
+  --dataset DATASET     input batch size for training (default: 50)
   --batch_size BATCH_SIZE
-                        input batch size for training (default: 32)
-  --epochs EPOCHS       number of epochs to train (default: 200)
+                        input batch size for training (default: 50)
+  --epochs EPOCHS       number of epochs to train (default: 100)
   --lr LR               learning rate (default: 0.001)
   --momentum MOMENTUM   SGD momentum (default: 0.9)
   --weight_decay WEIGHT_DECAY
@@ -240,14 +254,7 @@ options:
   --log_interval LOG_INTERVAL
                         how many batches to wait before logging training status
   --layers LAYERS       neural network layers and neural numbers
-  --prediction PREDICTION
-                        prediction
-  --pred PRED
-  --cv CV              
-  --blind_test BLIND_TEST
-  --model MODEL         prediction model
-  --normalizer_name NORMALIZER_NAME
-  --debug DEBUG         debugging channel
+  --nlayer NLAYER       number of neural network layers
 ```
 
 ---
