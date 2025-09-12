@@ -68,8 +68,8 @@ cd CANet
 ```
 │   README.md
 └─────────────────────────────────────────────────────mutsol
-└─────────────────────────────────M546                |                         
-└───S2648                         │                   │    
+└─────────────────────────────────M546                |   test_v2.txt                     
+└───S2648                         │                   │   train_v2.txt
     │   S2648.txt                 │   M546.txt        │   mutsol.txt
     │   S350.txt                  └───blast_jobs      └───blast_jobs
     └───blast_jobs                └───blast_out       └───blast_out
