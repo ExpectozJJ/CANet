@@ -147,10 +147,29 @@ Labels: [Download](https://weilab.math.msu.edu/Downloads/CANet/M546/Y_M546.npy)
 | S2648           | 2648           | 5-fold cross-validation   |
 | S350            | 350            | Blind test  |
 
+S2648 Features: [Facet Ideals](https://weilab.math.msu.edu/Downloads/CANet/S2648/X_S2648_SR_curves.npy) [f-vector](https://weilab.math.msu.edu/Downloads/CANet/S2648/X_S2648_SR_fcurves.npy) [ESM-2](https://weilab.math.msu.edu/Downloads/CANet/S2648/X_S2648_ESM.npy) [FRI](https://weilab.math.msu.edu/Downloads/CANet/S2648/X_S2648_FRI.npy) [Aux](https://weilab.math.msu.edu/Downloads/CANet/S2648/X_S2648_aux.npy)
+
+S2648 Labels: [Download](https://weilab.math.msu.edu/Downloads/CANet/S2648/Y_S2648.npy)
+
+S350 Features: [Facet Ideals](https://weilab.math.msu.edu/Downloads/CANet/S2648/X_S350_SR_curves.npy) [f-vector](https://weilab.math.msu.edu/Downloads/CANet/S2648/X_S350_SR_fcurves.npy) [ESM-2](https://weilab.math.msu.edu/Downloads/CANet/S2648/X_S350_ESM.npy) [FRI](https://weilab.math.msu.edu/Downloads/CANet/S2648/X_S350_FRI.npy) [Aux](https://weilab.math.msu.edu/Downloads/CANet/S2648/X_S350_aux.npy)
+
+S350 Labels: [Download](https://weilab.math.msu.edu/Downloads/CANet/S2648/Y_S350.npy)
+
 | Protein solubility changes       | No. of samples | Task   |
 |-----------------|----------------|--------|
 | PON-Sol2        | 6238           | 10-fold cross-validation   |
 | PON-Sol2        | 662            | Blind test   |
+
+Validation Features: [Facet Ideals](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_mutsol_SR_curves.npy) [f-vector](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_mutsol_SR_fcurves.npy) [ESM-2](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_mutsol_ESM.npy) [Aux](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_mutsol_aux.npy)
+
+Blind Test Training Features: [Facet Ideals](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_train_v2_SR_curves.npy) [f-vector](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_train_v2_SR_fcurves.npy) [ESM-2](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_train_v2_ESM.npy) [Aux](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_train_v2_aux.npy)
+
+Blind Test Training Labels: [Download](https://weilab.math.msu.edu/Downloads/CANet/mutsol/Y_train_v2.npy)
+
+Blind Test Training Features: [Facet Ideals](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_SR_curves.npy) [f-vector](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_SR_fcurves.npy) [ESM-2](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_ESM.npy) [Aux](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_aux.npy)
+
+Blind Test Training Labels: [Download](https://weilab.math.msu.edu/Downloads/CANet/mutsol/Y_test2_v2.npy)
+
 ---
 
 ## Feature generation
