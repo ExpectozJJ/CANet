@@ -243,9 +243,8 @@ options:
   --prediction PREDICTION
                         prediction
   --pred PRED
-  --cv CV               M546 cv
+  --cv CV              
   --blind_test BLIND_TEST
-                        M546 blind
   --model MODEL         prediction model
   --normalizer_name NORMALIZER_NAME
   --debug DEBUG         debugging channel
