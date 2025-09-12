@@ -133,10 +133,13 @@ python protein.py 1A5E A A L 37 S
 
 ## Datasets 
 
-| Disease-association       | No. of samples | Task   |
+| Disease-association       | No. of samples | Task   | 
 |-----------------|----------------|--------|
-| M546            | 492            | 10-fold cross-validation       |
-| M546            | 54             | Blind test   |
+| M546            | 492            | 10-fold cross-validation       | 
+| M546            | 54             | Blind test   | 
+
+Features: [Facet Ideals](https://weilab.math.msu.edu/Downloads/CANet/M546/X_M546_SR_curves.npy) [$f$-vector](https://weilab.math.msu.edu/Downloads/CANet/M546/X_M546_SR_fcurves.npy) [ESM-2](https://weilab.math.msu.edu/Downloads/CANet/M546/X_M546_ESM.npy) [FRI](https://weilab.math.msu.edu/Downloads/CANet/M546/X_M546_FRI.npy) [Aux](https://weilab.math.msu.edu/Downloads/CANet/M546/X_M546_aux.npy)
+Labels: [Download](https://weilab.math.msu.edu/Downloads/CANet/M546/Y_M546.npy)
 
 | Protein stability changes       | No. of samples | Task   |
 |-----------------|----------------|--------|
