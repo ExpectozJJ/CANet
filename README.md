@@ -149,7 +149,6 @@ python protein.py 1A5E A A L 37 S
 | PON-Sol2        | 662            | Blind test   |
 ---
 
----
 ## Feature generation
 ### Multiscale Commutative Algebra Embedding
 ```shell
@@ -218,6 +217,7 @@ Mutation-induced protein solubility changes
 python Fit_mutsol.py
 python build_mutsol.py
 ```
+---
 
 ## Model Usage
 ```shell
