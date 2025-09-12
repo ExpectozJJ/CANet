@@ -166,9 +166,9 @@ Blind Test Training Features: [Facet Ideals](https://weilab.math.msu.edu/Downloa
 
 Blind Test Training Labels: [Download](https://weilab.math.msu.edu/Downloads/CANet/mutsol/Y_train_v2.npy)
 
-Blind Test Training Features: [Facet Ideals](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_SR_curves.npy) [f-vector](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_SR_fcurves.npy) [ESM-2](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_ESM.npy) [Aux](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_aux.npy)
+Blind Test Test Features: [Facet Ideals](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_SR_curves.npy) [f-vector](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_SR_fcurves.npy) [ESM-2](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_ESM.npy) [Aux](https://weilab.math.msu.edu/Downloads/CANet/mutsol/X_test2_v2_aux.npy)
 
-Blind Test Training Labels: [Download](https://weilab.math.msu.edu/Downloads/CANet/mutsol/Y_test2_v2.npy)
+Blind Test Test Labels: [Download](https://weilab.math.msu.edu/Downloads/CANet/mutsol/Y_test2_v2.npy)
 
 ---
 
