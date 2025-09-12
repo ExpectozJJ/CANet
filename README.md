@@ -221,19 +221,16 @@ python build_mutsol.py
 
 ## Model Usage
 ```shell
-usage: PPI_multitask_DMS_mega.py [-h] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--lr LR] [--momentum MOMENTUM]
-                                 [--weight_decay WEIGHT_DECAY] [--no_cuda] [--seed SEED] [--log_interval LOG_INTERVAL]
-                                 [--layers LAYERS] [--continue_train CONTINUE_TRAIN] [--prediction PREDICTION]
-                                 [--pred PRED] [--cv CV] [--cv_type CV_TYPE] [--model MODEL]
-                                 [--normalizer1_name NORMALIZER1_NAME] [--normalizer2_name NORMALIZER2_NAME]
-                                 [--freeze FREEZE] [--skempi_pretrain SKEMPI_PRETRAIN] [--ft FT] [--finetune FINETUNE]
-                                 [--debug DEBUG] [--DMS_data DMS_DATA] [--pred_DMS PRED_DMS]
+usage: CANet.py [-h] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--lr LR] [--momentum MOMENTUM]
+                           [--weight_decay WEIGHT_DECAY] [--no_cuda] [--seed SEED] [--log_interval LOG_INTERVAL] [--layers LAYERS]
+                           [--prediction PREDICTION] [--pred PRED] [--cv CV]
+                           [--blind_test BLIND_TEST] [--model MODEL] [--normalizer_name NORMALIZER_NAME] [--debug DEBUG]
 
 options:
   -h, --help            show this help message and exit
   --batch_size BATCH_SIZE
-                        input batch size for training (default: 50)
-  --epochs EPOCHS       number of epochs to train (default: 500)
+                        input batch size for training (default: 32)
+  --epochs EPOCHS       number of epochs to train (default: 200)
   --lr LR               learning rate (default: 0.001)
   --momentum MOMENTUM   SGD momentum (default: 0.9)
   --weight_decay WEIGHT_DECAY
@@ -243,26 +240,15 @@ options:
   --log_interval LOG_INTERVAL
                         how many batches to wait before logging training status
   --layers LAYERS       neural network layers and neural numbers
-  --continue_train CONTINUE_TRAIN
-                        run training
   --prediction PREDICTION
                         prediction
   --pred PRED
-  --cv CV               cv (launch validation test)
-  --cv_type CV_TYPE     skempi2 or alphafold (select original PDB or AF3 validation)
+  --cv CV               M546 cv
+  --blind_test BLIND_TEST
+                        M546 blind
   --model MODEL         prediction model
-  --normalizer1_name NORMALIZER1_NAME
-                        mega dataset
-  --normalizer2_name NORMALIZER2_NAME
-                        Lap and ESM dataset
-  --freeze FREEZE       freeze weights and biases of hidden layers
-  --skempi_pretrain SKEMPI_PRETRAIN
-                        finetune DMS with SKEMPI2
-  --ft FT               finetune pretrained model with DMS
-  --finetune FINETUNE   finetune model with DMS data
+  --normalizer_name NORMALIZER_NAME
   --debug DEBUG         debugging channel
-  --DMS_data DMS_DATA   predict full DMS data
-  --pred_DMS PRED_DMS   predict full DMS data
 ```
 
 ---
