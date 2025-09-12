@@ -199,6 +199,8 @@ The blast_jobs, feat_jobs, seq_jobs and SR_jobs folder contains scripts used to 
 
 ## Feature Preprocessing
 
+The scripts here will generate features for entire datasets. 
+
 Disease-associated mutations
 ```shell
 python Fit_M546.py
