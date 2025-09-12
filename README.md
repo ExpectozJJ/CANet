@@ -198,16 +198,20 @@ The blast_jobs, feat_jobs, seq_jobs and SR_jobs folder contains scripts used to 
 ---
 
 ## Feature Preprocessing
+
+Disease-associated mutations
 ```shell
 python Fit_M546.py
 python build_M546.py
 ```
 
+Mutation-induced protein stability changes
 ```shell
 python Fit_S2648.py
 python build_2648.py
 ```
 
+Mutation-induced protein solubility changes
 ```shell
 python Fit_mutsol.py
 python build_mutsol.py
