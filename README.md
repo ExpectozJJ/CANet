@@ -146,7 +146,7 @@ python protein.py 1A5E A A L 37 S
 | Protein solubility changes       | No. of samples | Task   |
 |-----------------|----------------|--------|
 | PON-Sol2        | 6238           | 10-fold cross-validation   |
-| PON-Sol2        | 3724           | Blind test   |
+| PON-Sol2        | 662            | Blind test   |
 ---
 
 ---
